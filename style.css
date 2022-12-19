@@ -173,6 +173,7 @@ nav a
 .filter-texticons:hover
 {
     background-color: var(--light-blue);
+    cursor: pointer;
 }
 
 .filter-icons
