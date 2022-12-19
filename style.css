@@ -92,13 +92,13 @@ nav a
 {
     display: flex;
     height: 50px;
-    width: 236px;
+    width: 274px;
     border: solid var(--grey) 1px;
 }
 
 .container-input input
 {
-    width: 236px;
+    width: 274px;
     padding-left: 15px;
     border: none;
 }
