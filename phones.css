@@ -15,12 +15,17 @@
     body
     {
         padding: 0;
+        margin: 0 auto;
     }
 
     header, main, footer
     {
-        margin: 0 auto;
-        padding: 0 0;
+        min-width: 375px;
+    }
+
+    .section1
+    {
+        margin-left: 8.5px;
     }
 
     /*---------- Header ----------*/
@@ -29,16 +34,25 @@
     {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         height: 240px;
     }
 
-
+    header nav
+    {
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 375px;
+    } 
 
     nav div
     {
         border-top: 3px solid transparent;
         line-height: 62px;
-        border-bottom: 3px solid transparent;
+        border-bottom: 3px solid transparent; 
+        text-align: center;
+        width: 187.5px;
+        margin: 0 auto;
     }
 
     nav div:hover
@@ -46,12 +60,16 @@
         border-top:solid 3px transparent;
         line-height: 62px;
         border-bottom: 3px solid #0065fc;
+        width: 187.5px;
+        margin: 0 auto;
     }
 
     /*---------- search bar ----------*/
 
     .search-bar
     {
+        display: flex;
+        justify-content: center;
         width: 358px;
     }
 
@@ -78,7 +96,7 @@
     {
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
     }
 
     .container-filter h3
@@ -88,12 +106,10 @@
 
     .filter
     {
-        width: auto;
         height: 140px;
         gap: 20px;
         border-radius: 25px;
-        padding: 0 0;
-        margin-top: 0;
+        padding: 0;
     }
 
     .filter-text
