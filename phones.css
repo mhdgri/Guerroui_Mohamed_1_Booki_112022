@@ -25,7 +25,8 @@
 
     .section1
     {
-        padding-left:10px;
+        margin: 0 auto;
+        padding: 0 10px;
     }
 
     /*---------- Header ----------*/
@@ -41,11 +42,10 @@
 
     header h1 a
     {
-        width: 61px;
-        height: 19px;
+        width: 60px;
+        height: 20px;
         margin-left: 60px;
     }
-
 
     header nav
     {
@@ -76,6 +76,13 @@
         font-size: 16px;
     }
 
+    .title2-paragraph
+
+    {
+        width: 375px;
+        margin: 0 auto;
+    }
+
     /*---------- search bar ----------*/
 
     .search-bar
@@ -83,6 +90,7 @@
         display: flex;
         justify-content: center;
         width: 358px;
+        margin: 0 auto;
     }
 
     .bouton-search
@@ -109,6 +117,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin: 0 auto;
+        width: 375px;
     }
 
     .container-filter h3
@@ -135,6 +145,14 @@
         width: 145px;
         height: 50px;
         padding: 0 10px;
+    }
+
+    /* info */
+
+    .info
+    {
+        margin: 0 auto;
+        width: 375px;
     }
 
     /*---------- accommodation and popular ----------*/
