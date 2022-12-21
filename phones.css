@@ -25,7 +25,7 @@
 
     .section1
     {
-        margin-left: 8.5px;
+        padding: 0 0 0 10px;
     }
 
     /*---------- Header ----------*/
@@ -34,14 +34,21 @@
     {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         height: 240px;
+        width: 375px;
+        margin: 0 auto ;
     }
+
+    header h1 a
+    {
+        width: 61px;
+        height: 19px;
+        margin-left: 80px;
+    }
+
 
     header nav
     {
-        margin: 0 auto;
-        padding: 0 auto;
         width: 375px;
     } 
 
@@ -52,7 +59,6 @@
         border-bottom: 3px solid transparent; 
         text-align: center;
         width: 187.5px;
-        margin: 0 auto;
     }
 
     nav div:hover
@@ -62,6 +68,12 @@
         border-bottom: 3px solid #0065fc;
         width: 187.5px;
         margin: 0 auto;
+    }
+
+    nav a
+    {
+        font-weight: 500;
+        font-size: 16px;
     }
 
     /*---------- search bar ----------*/
