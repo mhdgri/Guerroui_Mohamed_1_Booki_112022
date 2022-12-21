@@ -157,7 +157,7 @@
 
     .info
     {
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
     /*---------- accommodation and popular ----------*/
@@ -273,18 +273,5 @@
         align-items: flex-start;
         height: 460px;
         padding-left: 30px;
-    }
-}
-
-@media screen and (max-width: 374px)
-{
-    .container-filter
-    {
-        height: 400px;
-    }
-
-    .filter-texticons
-    {
-        width: 145px;
     }
 }
