@@ -18,27 +18,27 @@
     }
 
     /*---------- filtre ----------*/
-
     .container-filter
     {
         display: flex;
-        flex-direction: row;
-        height: 120px;
+        align-items: center;
     }
-
-    .filter li, .filter
+    .filter
+    {
+        flex-wrap: wrap;
+        gap: 15px;
+        height: 50px;
+        padding-left:10px;
+    }
+    
+    .filter-texticons
     {
         padding: 0 10px;
     }
 
     .filter-text
     {
-        font-size: 14px;
-    }
-    .filter
-    {
-        flex-wrap: nowrap;
-        height: 50px;
+        font-size: 15px;
     }
 
     /*---------- accommodation and popular ----------*/
