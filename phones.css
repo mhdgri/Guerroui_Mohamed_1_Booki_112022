@@ -134,7 +134,7 @@
 
     .filter
     {
-        display: grid;
+        display:grid;
         grid-template-columns: repeat(2, 1fr);
         height: auto;
         column-gap: 10px;
@@ -142,7 +142,7 @@
         margin-top: 0;
         width: 100%;
         margin-bottom: 30px;
-        padding-letf: 0;
+        padding-left: 0;
     }
 
     .filter-text
