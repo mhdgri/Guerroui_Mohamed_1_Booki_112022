@@ -280,7 +280,7 @@
         padding-left: 30px;
     }
     
-    }
+}
 
 @media screen and (max-width:290px)
 {
@@ -294,7 +294,5 @@
     {
         width: 90%;
     }
-
-}
 
 }
