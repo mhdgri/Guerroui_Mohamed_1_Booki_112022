@@ -217,6 +217,11 @@
         height: 144px;
     }
 
+    .popular-text div
+    {
+        margin-bottom: 5px;
+    }
+
 
     /*---------- Activities ----------*/
 
