@@ -12,7 +12,7 @@
 body 
 {
     font-family: 'raleway', sans-serif;
-    max-width: 1920px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -47,7 +47,7 @@ header h1 a
 nav div
 {
     border-top: 3px solid transparent;
-    line-height: 62px;
+    line-height: 69px;
     width: 50%;
     text-align: center;
 }
@@ -55,7 +55,7 @@ nav div
 nav div:hover
 {
     border-top: solid 3px var(--blue);
-    line-height: 62px;
+    line-height: 69px;
     width: 50%;
 }
 
@@ -79,12 +79,14 @@ nav a
     border: solid 1px var(--grey);
     border-radius: 15px;
     background-color: var(--grey);
+    margin-top: 30px;
 }
 .icon-search
 {
     width: 50px;
     height: 50px;
     border-radius: 15px 0 0 15px;
+    padding: 0 20px;
 }
 
 .container-input
@@ -109,6 +111,7 @@ nav a
     background-color: var(--blue);
     border-radius: 0 15px 15px 0;
     cursor: pointer;
+    padding: 0 20px;
 }
 .icon-search, .bouton-search
 {
@@ -136,14 +139,13 @@ nav a
 {
     display: inline-flex;
     align-items: center;
-    margin: 32px 0 40px 0;
+    margin: 20px 0 20px 0;
 }
 
 .container-filter h3
 {
     font-weight: 700;
     font-size: 18px;
-
 }
 
 .filter
@@ -151,7 +153,6 @@ nav a
     display: flex;
     height: 50px;
     gap: 30px;
-    margin-bottom: 0px;
 }
 
 .filter ul li
@@ -265,7 +266,7 @@ font-size: 16px;
     gap: 20px;
     height: 620px;
     width: auto;
-    padding: 0 25px 52px 15px;
+    padding: 0 25px 40px 15px;
     background-color: var(--grey);
     border-radius: 20px;
 }
@@ -347,8 +348,7 @@ font-size: 16px;
     grid-template-rows: repeat(4, 1fr);
     height: 620px;
     width: auto;
-    row-gap: 20px;
-    padding: 0px 25px 52px 15px;
+    padding: 0px 25px 40px 15px;
     background-color: var(--grey);
     border-radius: 20px;
 }
@@ -362,8 +362,9 @@ article
     border-radius: 20px;
     padding: 5px;
     width: 100%;
-    height: 144px;
+    height: 152px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
 
@@ -378,7 +379,7 @@ article:hover
 article img
 {
     width: 90%;
-    height: 144px;
+    height: 152px;
     object-fit: cover;
     object-position: center;
     border-radius: 20px 0 0 20px;
@@ -390,8 +391,9 @@ article img
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    margin-top: 60px;
-    height: 0px;
+    margin-top: 53px;
+    height: 0;
+
 }
 
 .popular div i
@@ -440,6 +442,11 @@ article img
 
 }
 
+.block-activities h3
+{
+    margin-bottom: 30px;
+}
+
 .block-activities div
 {
     display: grid;
@@ -477,7 +484,10 @@ article img
 
 .block-activities h4
 {
-    margin-left: 16px;
+    font-size: 16px;
+    font-style: bold;
+    margin-right: auto;
+    padding-left: 10px;
 }
 
 

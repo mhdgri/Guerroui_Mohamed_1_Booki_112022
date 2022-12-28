@@ -82,17 +82,16 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        margin: 0 auto;
     }
 
     .icon-search
     {
-        width: 15%;
+        width: 5%;
     }
 
     .bouton-search
     {
-        width: 15%;
+        width: 5%;
         height: 50px;
     }
 
