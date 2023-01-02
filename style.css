@@ -393,12 +393,6 @@ article img
     justify-content: space-between;  
     margin-top: 53px;
     height: 0;
-
-}
-
-.popular div i
-{
-    color: var(--blue)
 }
 
 .popular-text
@@ -409,6 +403,11 @@ article img
 .popular-text div
 {
     margin-top: auto;
+}
+
+.popular-text div i
+{
+    margin-right: 0
 }
 
 .popular-text h4, .popular-text p
