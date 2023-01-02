@@ -335,6 +335,7 @@ font-size: 16px;
 {
     height: 12px;
     width: 12px;
+    margin-right: 2px;
 }
 
 
@@ -407,7 +408,9 @@ article img
 
 .popular-text div i
 {
-    margin-right: 0
+    height: 12px;
+    width:12px;
+    margin-right: 2px;
 }
 
 .popular-text h4, .popular-text p
