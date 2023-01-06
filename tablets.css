@@ -14,7 +14,7 @@
     body
     {
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
     /*---------- search bar -----------*/
@@ -48,7 +48,7 @@
     {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        row-gap: 20px;
+        row-gap: 40px;
         grid-template-areas:
         "accomodation"
         "popular";
@@ -123,8 +123,7 @@
     
     .popular-text i
     {
-        height: 12px;
-        width: 12px;
+        font-size: 12px;
     }
 
 
@@ -158,13 +157,18 @@
 
     .block-activities div div
     {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         height: 267px;
         width: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .block-activities img
     {
-        height: 196px;
+        height: 210px;
         width: 100%;
     }
 
@@ -172,8 +176,6 @@
     {
         font-size: 14px;
         font-weight: bold;
-        margin-right: auto;
-        padding-left:10px;
     }
     
 }

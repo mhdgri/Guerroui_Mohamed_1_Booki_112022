@@ -14,7 +14,7 @@ body
     font-family: 'raleway', sans-serif;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 
@@ -223,13 +223,13 @@ nav a
 {
     display: grid;
     grid-template-columns: 1.9fr 1fr;
-    column-gap: 20px; 
+    column-gap: 40px; 
     margin: 40px 0 40px 0;
 }
 
 h3
 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 .accommodation h4, .popular h4
@@ -262,11 +262,10 @@ font-size: 16px;
 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 20px;
-    height: 620px;
+    gap: 30px;
+    height: auto;
     width: auto;
-    padding: 0 25px 40px 15px;
+    padding: 0 35px 40px 25px;
     background-color: var(--grey);
     border-radius: 20px;
 }
@@ -274,7 +273,7 @@ font-size: 16px;
 .accommodation > .accommodation-card
 {
     width: 100%;
-    height: 200px;
+    height: 192px;
     background-color: var(--white);
     padding: 5px;
     border-radius: 20px;  
@@ -315,14 +314,13 @@ font-size: 16px;
 
 .accommodation-card h4, .accommodation-card p, .accommodation-card div
 {
-    margin: 4px;
-    padding: 0 0;
+    margin: 4px 0;
 }
 
 .accommodation-card h4
 {
     font-weight:700;
-    font-size:16px;
+    font-size:14px;
 }
 
 .accommodation-card p
@@ -333,9 +331,8 @@ font-size: 16px;
 
 .accommodation-card i
 {
-    height: 12px;
-    width: 12px;
-    margin-right: 2px;
+    font-size: 12px;
+    
 }
 
 
@@ -346,10 +343,9 @@ font-size: 16px;
 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 1fr 1fr 1fr;
-    height: 620px;
+    height: auto;
     width: auto;
-    padding: 0px 25px 40px 15px;
+    padding: 0px 35px 40px 25px;
     background-color: var(--grey);
     border-radius: 20px;
 }
@@ -365,7 +361,7 @@ article
     width: 100%;
     height: 144px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 
@@ -394,6 +390,7 @@ article img
     justify-content: space-between;  
     margin-top: 53px;
     height: 0;
+    margin-bottom: 20px;
 }
 
 .popular-text
@@ -408,9 +405,7 @@ article img
 
 .popular-text div i
 {
-    height: 12px;
-    width:12px;
-    margin-right: 2px;
+    font-size: 12px;
 }
 
 .popular-text h4, .popular-text p
@@ -421,7 +416,7 @@ article img
 .popular-text h4
 {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -453,17 +448,18 @@ article img
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
+    column-gap: 30px;
     border-radius: 20px;
     margin-bottom: 40px;
 }
 
 .block-activities div div
 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: var(--grey);
-    height: 460px;
+    height: 450px;
     width: auto;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
@@ -479,17 +475,18 @@ article img
 {
     object-fit: cover;
     object-position: center;
-    height: 380px;
+    height: 390px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
 
 .block-activities h4
 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: auto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: auto;
     padding-left: 10px;
+    
 }
 
 
