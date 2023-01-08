@@ -92,7 +92,6 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 0.5fr 1fr;
             column-gap: 20px;
-            row-gap: 20px;
             height: 260px;
     }
 
@@ -103,6 +102,7 @@
             justify-content: space-between;
             grid-area: 1 / 1 / 2 / -1;
             margin-top: 50px;
+            margin-bottom: 0;
     }
 
     .popular > h2
